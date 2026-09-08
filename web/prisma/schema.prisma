@@ -1,0 +1,89 @@
+generator client {
+  provider      = "prisma-client-js"
+  // "native" covers local dev (macOS/Linux glibc); the musl target is what
+  // actually runs at runtime inside the node:22-alpine Docker image.
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Membership {
+  free
+  premium
+}
+
+// Student accounts. Standalone from hanbeego.com's real (private) database —
+// this is the schema an admin panel needs to demo user management, seeded
+// with fake sample rows only.
+model User {
+  id          String     @id @default(cuid())
+  email       String     @unique
+  displayName String
+  hskLevel    String     @default("HSK 1")
+  xpTotal     Int        @default(0)
+  streakDays  Int        @default(0)
+  membership  Membership @default(free)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  friendshipsSent     Friendship[] @relation("FriendshipsSent")
+  friendshipsReceived Friendship[] @relation("FriendshipsReceived")
+}
+
+enum FriendshipStatus {
+  pending
+  accepted
+}
+
+// One row per friend relationship. `requesterId` sent the request;
+// `pending` until `addresseeId` accepts it.
+model Friendship {
+  id           String           @id @default(cuid())
+  requesterId  String
+  addresseeId  String
+  requester    User             @relation("FriendshipsSent", fields: [requesterId], references: [id], onDelete: Cascade)
+  addressee    User             @relation("FriendshipsReceived", fields: [addresseeId], references: [id], onDelete: Cascade)
+  status       FriendshipStatus @default(pending)
+  createdAt    DateTime         @default(now())
+
+  @@unique([requesterId, addresseeId])
+}
+
+// Structured vocabulary words, parsed out of the scraped /vocab/topics/*
+// pages' card markup (see prisma/import-vocab.ts) so the dictionary and
+// practice games can query real words instead of raw HTML blobs.
+model VocabWord {
+  id        String   @id @default(cuid())
+  hanzi     String
+  pinyin    String
+  meaningVi String
+  hskLevel  Int
+  topic     String
+  createdAt DateTime @default(now())
+
+  @@unique([hanzi, pinyin])
+  @@index([hskLevel])
+  @@index([topic])
+}
+
+// Generic content page — mirrors the scraper's page model (see
+// scraper/scraper.py:extract_page and src/lib/content.ts) so every page the
+// scraper cloned from hanbeego.com can be imported here and then edited live
+// from /admin/pages, instead of only ever being read from static JSON.
+model Page {
+  id            String   @id @default(cuid())
+  path          String   @unique
+  section       String
+  title         String
+  description   String   @default("")
+  mainHtml      String
+  headings      Json     @default("[]")
+  internalLinks Json     @default("[]")
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([section])
+}

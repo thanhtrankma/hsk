@@ -1,0 +1,74 @@
+services:
+  # One-off crawler: scrapes hanbeego.com and writes JSON content + images
+  # straight onto the host, into ./web/content and ./web/public/scraped-assets.
+  #   docker compose --profile scrape run --rm scraper
+  scraper:
+    build: ./scraper
+    profiles: ["scrape"]
+    volumes:
+      - ./web/content:/data/content
+      - ./web/public/scraped-assets:/data/assets
+    command:
+      [
+        "--base-url", "https://hanbeego.com",
+        "--content-dir", "/data/content",
+        "--assets-dir", "/data/assets",
+        "--asset-url-prefix", "/scraped-assets",
+        "--workers", "8",
+        "--delay", "0.25"
+      ]
+
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-hskgo}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-hskgo}
+      POSTGRES_DB: ${POSTGRES_DB:-hskgo}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-hskgo}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # One-off: applies Prisma migrations, imports web/content/**/*.json (the
+  # scraper's output) into the `Page` table, seeds sample Users, then parses
+  # the /vocab/topics/* pages into structured VocabWord rows (used by the
+  # dictionary tool and the practice games). Run this once after `scraper`
+  # and before starting `web`, and again any time you re-scrape and want the
+  # DB refreshed:
+  #   docker compose --profile setup run --rm db-setup
+  db-setup:
+    build:
+      context: ./web
+      target: builder
+    profiles: ["setup"]
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-hskgo}:${POSTGRES_PASSWORD:-hskgo}@db:5432/${POSTGRES_DB:-hskgo}
+    volumes:
+      - ./web/content:/app/content:ro
+    entrypoint: ["sh", "-c"]
+    command: ["npx prisma migrate deploy && npm run db:seed && npm run db:import-vocab"]
+
+  web:
+    build: ./web
+    ports:
+      - "3000:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgresql://${POSTGRES_USER:-hskgo}:${POSTGRES_PASSWORD:-hskgo}@db:5432/${POSTGRES_DB:-hskgo}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-changeme}
+      ADMIN_SESSION_SECRET: ${ADMIN_SESSION_SECRET:-dev-only-change-this-secret}
+
+volumes:
+  pgdata:

@@ -1,0 +1,19 @@
+# Node / Next.js
+web/node_modules/
+web/.next/
+web/next-env.d.ts
+
+# Scraped data (regenerate with: docker compose --profile scrape run --rm scraper)
+web/content/
+web/public/scraped-assets/
+
+# Python scraper
+scraper/.venv/
+scraper/__pycache__/
+scraper/output/
+
+# Secrets
+.env
+
+# OS / editor
+.DS_Store

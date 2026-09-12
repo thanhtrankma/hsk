@@ -9,11 +9,11 @@ function StatChip({ label, value }: { label: string; value: string }) {
   );
 }
 
-export default function AppTopbar() {
+export default function AccountMenu() {
   const s = mockSession;
   return (
-    <header className="flex items-center justify-between gap-4 border-b border-ink-100 bg-white px-4 py-2.5 sm:px-6">
-      <div className="flex items-center divide-x divide-ink-100">
+    <div className="flex items-center gap-4">
+      <div className="hidden items-center divide-x divide-ink-100 sm:flex">
         <StatChip label={s.currentHsk} value={s.currentHsk} />
         <StatChip label="Streak" value={`${s.streakDays} ngày`} />
         <StatChip label="XP" value={String(s.xpTotal)} />
@@ -21,19 +21,19 @@ export default function AppTopbar() {
       </div>
 
       <div className="flex items-center gap-3">
-        <span className="rounded-full bg-ink-100 px-3 py-1 text-xs font-bold text-ink-600">
+        <span className="hidden rounded-full bg-ink-100 px-3 py-1 text-xs font-bold text-ink-600 sm:inline">
           {s.membership === "premium" ? "Premium" : "Miễn phí"}
         </span>
         <div className="flex items-center gap-2">
           <span className="flex size-8 items-center justify-center rounded-full bg-brand-100 text-sm font-bold text-brand-700">
             {s.displayName.charAt(0)}
           </span>
-          <div className="text-left leading-tight">
+          <div className="hidden text-left leading-tight sm:block">
             <div className="text-sm font-bold text-ink-800">{s.displayName}</div>
             <div className="text-[11px] text-ink-400">{s.levelLabel}</div>
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 }

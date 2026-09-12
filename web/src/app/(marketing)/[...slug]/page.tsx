@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPageByPath } from "@/lib/pages";
+import ScrapedContent from "@/components/ScrapedContent";
 
 // Pages now live in Postgres and are editable from /admin/pages, so this
 // route is rendered fresh on every request instead of statically exported.
@@ -54,10 +55,7 @@ export default async function ScrapedPage({ params }: Props) {
       )}
       {page.description && <p className="mt-2 text-ink-500">{page.description}</p>}
 
-      <div
-        className="scraped-content mt-8"
-        dangerouslySetInnerHTML={{ __html: page.mainHtml }}
-      />
+      <ScrapedContent className="mt-8" html={page.mainHtml} />
     </article>
   );
 }

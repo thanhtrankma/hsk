@@ -1,0 +1,2026 @@
+{
+  "thanh-mau": [
+    {
+      "group": "Nhóm thanh mẫu 1: Nhóm âm hai môi và răng môi",
+      "label": "b",
+      "cells": [
+        "b",
+        "",
+        "Âm \"p\"",
+        "Đọc là [pua](kết hợp với vần \"ua\")",
+        "Hai môi mím lại chạm vào nhau, sau đó mở ra thật nhanh và kết hợp với phần vần \"ua\" -> [pua]"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/000-b.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 1: Nhóm âm hai môi và răng môi",
+      "label": "p",
+      "cells": [
+        "p",
+        "",
+        "Âm \"p\" (có bật hơi)",
+        "Đọc là [pua](kèm bật hơi)",
+        "Âm \"p\" phát âm giống với \"b\" nhưng kèm theo bật hơi. Mím chặt môi trước, sau đó lấy hơi từ dưới bụng đưa lên cổ họng và đẩy mạnh ra bên ngoài -> kết hợp với phần vần \"ua\" -> [pua],Nếu cảm thấy luồng hơi đi ra mạnh là bạn đang đọc đúng"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/001-p.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 1: Nhóm âm hai môi và răng môi",
+      "label": "f",
+      "cells": [
+        "f",
+        "",
+        "Âm \"ph\"",
+        "Đọc là [phua](kết hợp với vần \"ua\")",
+        "Lấy răng trên đè chặt vào môi dưới, sau đó đẩy hơi ra ngoài. Khi luồng hơi đi ra tạo ma sát tại chỗ tiếp xúc giữa răng trên và môi dưới là đã phát âm chuẩn"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/002-f.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 1: Nhóm âm hai môi và răng môi",
+      "label": "m",
+      "cells": [
+        "m",
+        "",
+        "Âm \"m\"",
+        "Đọc là [mua](kết hợp với vần \"ua\")",
+        "Mím môi sâu hơn so với khi phát âm âm 'm' trong tiếng Việt và bật ra từ khẩu hình môi đang mím sâu (nhưng không bật hơi)"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/003-m.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 2: Nhóm âm đầu lưỡi",
+      "label": "d",
+      "cells": [
+        "d",
+        "",
+        "Âm \"t\"",
+        "Đọc là [tưa](kết hợp với vần \"ưa\")",
+        "Đây là nhóm phụ âm đầu lưỡi kết hợp với lợi. Đầu lưỡi chạm vào lợi của hàm trên. Đây là âm không bật phát âm. Khi phát âm, khẩu hình miệng sẽ nhòe sang hai bên"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/004-d.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 2: Nhóm âm đầu lưỡi",
+      "label": "t",
+      "cells": [
+        "t",
+        "",
+        "Âm \"th\"",
+        "Đọc là [thưa](kèm bật hơi)",
+        "Đây là âm bật hơi mạnh. Lấy hơi từ dưới bụng đưa lên cổ họng và đẩy mạnh ra bên ngoài. Đầu lưỡi tì sát chân răng (hàm trên), sau đó đẩy mạnh hơi ra"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/005-t.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 2: Nhóm âm đầu lưỡi",
+      "label": "n",
+      "cells": [
+        "n",
+        "",
+        "Âm \"n\"",
+        "Đọc là [nưa](kết hợp với vần \"ưa\")",
+        "Khẩu hình miệng sẽ nhòe sang hai bên, phát âm như chữ \"n\" trong tiếng việt => [nưa]"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/006-n.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 2: Nhóm âm đầu lưỡi",
+      "label": "l",
+      "cells": [
+        "l",
+        "",
+        "Âm \"l\"",
+        "Đọc là [lưa](kết hợp với vần \"ưa\")",
+        "Đầu lưỡi của bạn sẽ chạm vào lợi hàm trên. Sau đó, lưỡi có xu hướng di chuyển từ trên xuống dưới"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/007-l.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 3: Nhóm âm cuống lưỡi",
+      "label": "g",
+      "cells": [
+        "g",
+        "",
+        "Âm \"c\"",
+        "Đọc là [cưa](kết hợp với vần \"ưa\")",
+        "Âm này không bật hơi, nên khi đọc bạn cần thật sự phát âm nhẹ nhàng => [cưa]"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/008-g.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 3: Nhóm âm cuống lưỡi",
+      "label": "k",
+      "cells": [
+        "k",
+        "",
+        "Âm \"kh\"",
+        "Đọc là [khưa](kết hợp với vần \"ưa\")(kèm bật hơi)",
+        "Lấy hơi từ dưới bụng đưa lên trên cổ họng, giữ hơi ở cuốn họng một lúc. Sau đó, tạo ra ma sát và đẩy âm ra ngoàiHãy cảm nhận trạng thái: luồng hơi mang âm \"kh\" đã có từ cổ họng, trước khi nó được phát âm ra ngoài kèm bật hơi\"kh\" => \"[khưa + bật hơi]"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/009-k.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 3: Nhóm âm cuống lưỡi",
+      "label": "h",
+      "cells": [
+        "h",
+        "",
+        "Âm \"kh\"",
+        "Đọc là [khưa](không bật hơi)",
+        "Khi đọc âm này, bạn đọc từ từ và nhẹ nhàng. Đây là một âm không bật hơi. Bạn không nên bật hơi mạnh hay đọc mạnh vì như thế sẽ có thể nhầm sang cách phát âm của ký hiệu chữ \"k\""
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/010-h.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 4: Nhóm âm mặt lưỡi",
+      "label": "j",
+      "cells": [
+        "j",
+        "",
+        "Âm \"ch\"",
+        "Đọc là [chi](kết hợp với vần \"i\")",
+        "Khẩu hình miệng sẽ nhòe sang hai bên (giống như đang cười) và giữ lưỡi phẳng, không bật hơi, nên khi đọc bạn phải khống chế luồng hơi không để hơi đi ra bên ngoài."
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/011-j.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 4: Nhóm âm mặt lưỡi",
+      "label": "q",
+      "cells": [
+        "q",
+        "",
+        "Âm \"ch\"",
+        "Đọc là [chi](kèm bật hơi)",
+        "Phát âm giống \"j\" kèm theo bật hơi mạnh, lưỡi thẳng. Khẩu hình miệng sẽ nhòe sang hai bên, lấy đà hơi sau đó đẩy mạnh ra bên ngoài.Nếu bạn cảm nhận được luồng hơi đi ra rất mạnh thì là đã đọc đúng."
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/012-q.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 4: Nhóm âm mặt lưỡi",
+      "label": "x",
+      "cells": [
+        "x",
+        "",
+        "Âm \"x\"",
+        "Đọc là [xi](không bật hơi)",
+        "Đọc âm này nhẹ nhàng, thẳng lưỡi và từ từ và giống với tiếng Việt => [xi]Nếu lưỡi đã đụng vào mặt trong của hàm răng dưới thì đã phát âm đúng"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/013-x.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 5: Nhóm âm đầu lưỡi trước",
+      "label": "z",
+      "cells": [
+        "z",
+        "",
+        "Âm \"ch\" của miền bắc, dứt khoát",
+        "Đọc là [chư]",
+        "Giữ khẩu hình cường gượng (khẩu hình miệng bẹt sang hai bên), đặt đầu lưỡi chạm vào mặt trong của hàm răng trên và dùng khẩu hình đó để phát âm chữ [chư] miền bắcÂm thanh phát ra nó sẽ lai giữa [chư] và [zư] của tiếng Việt nhiều hơn, không phải hoàn toàn là [chư]"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/014-z.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 5: Nhóm âm đầu lưỡi trước",
+      "label": "c",
+      "cells": [
+        "c",
+        "",
+        "Âm \"ch\" của miền bắc, dứt khoát",
+        "Đọc là [chư](kèm bật hơi)",
+        "Giữ khẩu hình cường gượng, đặt đầu lưỡi chạm vào mặt trong của hàm răng trên và dùng khẩu hình đó để phát âm chữ [chư] miền bắc và bật hơi mạnh.Khi đọc đúng thì lưỡi có xu hướng đẩy răng ra bên ngoài"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/015-c.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 5: Nhóm âm đầu lưỡi trước",
+      "label": "s",
+      "cells": [
+        "s",
+        "",
+        "Âm \"x\"",
+        "Đọc là [xư](không bật hơi)",
+        "Đọc âm này nhẹ nhàng, thẳng lưỡi và từ từ và giống với tiếng Việt => [xi]Nếu lưỡi đã đụng vào mặt trong của hàm răng dưới thì đã phát âm đúng=> Âm \"s\" phát âm hoàn toàn giống với \"x\", chúng chỉ khác nhau ở việc các nguyên âm đi với \"s\" sẽ không bao giờ đi với \"x\""
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/016-s.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 6: Nhóm âm đầu lưỡi sau",
+      "label": "zh",
+      "cells": [
+        "zh",
+        "",
+        "Âm \"tr\"",
+        "Đọc là [trư]",
+        "Không cuốn lưỡi quá nhiều giống như chữ \"tr\" của tiếng Việt. Lưỡi chỉ cần nâng lên chạm với vòng họng để chặn hơi.Sau khi hơi lên đầy thì hạ lưỡi xuống để hơi thoát ra. Lưu ý là chỉ cần nâng lưỡi lên chạm với vòng họng là được, không cuốn lưỡi vào sâu bên trong.Khi đọc môi sẽ hơi tròn và chề ra bên ngoài một chút."
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/017-zh.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 6: Nhóm âm đầu lưỡi sau",
+      "label": "ch",
+      "cells": [
+        "ch",
+        "",
+        "Âm \"tr\"",
+        "Đọc là [trư](kèm bật hơi)",
+        "Cách phát âm tương tự zh, nhưng chúng ta phải bật hơi mạnh.Đầu tiên nâng lưỡi lên chạm với vờm họng và không cuốn lưỡi. Sau đó, khi hơi lên đầy thì hơi mạnh ra.Lưu ý là cũng không cuống lưỡi vào sâu bên trong."
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/018-ch.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 6: Nhóm âm đầu lưỡi sau",
+      "label": "sh",
+      "cells": [
+        "sh",
+        "",
+        "Âm \"s\"",
+        "Đọc là [sư]",
+        "Phát âm giống âm \"s\" nặng của tiếng Việt, cong lưỡi sẵn không cuốn lưỡi quá nhiều, chỉ cần nâng lưỡi lên gần với vờm họng.Lấy hơi sâu và đẩy mạnh ra ngoài"
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/019-sh.mp3"
+    },
+    {
+      "group": "Nhóm thanh mẫu 6: Nhóm âm đầu lưỡi sau",
+      "label": "r",
+      "cells": [
+        "r",
+        "",
+        "Âm \"r\"",
+        "Đọc tương tự [rư]",
+        "Khác với âm \"r\" trong tiếng Việt có thể làm rung cổ họng, âm này trong tiếng Trung sẽ không rung, mà chỉ thực hiện động tác cong lưỡi thôi."
+      ],
+      "headers": [
+        "Thanh mẫu",
+        "Nghe âm",
+        "Gần giống tiếng Việt",
+        "Phát âm cụ thể",
+        "Hướng dẫn cách phát âm"
+      ],
+      "file": "thanh-mau/020-r.mp3"
+    }
+  ],
+  "van-mau": [
+    {
+      "group": "2.1 Nhóm vận mẫu mở miệng khi phát âm",
+      "label": "a",
+      "cells": [
+        "a",
+        "",
+        "Là âm có khẩu hình mở lớn nhất. Miệng mở rộng thoải mái, lưỡi hạ thấp và thả lỏng. Âm thoát ra đầy đặn, vang và rõ, tương tự “a” trong tiếng Việt."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/000-a.mp3"
+    },
+    {
+      "group": "2.1 Nhóm vận mẫu mở miệng khi phát âm",
+      "label": "o",
+      "cells": [
+        "o",
+        "",
+        "Môi hơi tròn nhưng vẫn giữ tự nhiên, không chu ra. Lưỡi hơi thu về sau, tạo cảm giác âm trầm, ấm và vang. Gần với “ô” nhưng khẩu hình mở thoáng hơn."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/001-o.mp3"
+    },
+    {
+      "group": "2.1 Nhóm vận mẫu mở miệng khi phát âm",
+      "label": "e",
+      "cells": [
+        "e",
+        "",
+        "Miệng mở vừa phải, môi không siết chặt. Lưỡi hơi lùi và nâng nhẹ ở phần giữa. Âm đầu hơi đục nhưng càng về cuối càng thoát, gần âm “ơ” trong tiếng Việt."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/002-e.mp3"
+    },
+    {
+      "group": "2.1 Nhóm vận mẫu mở miệng khi phát âm",
+      "label": "ai",
+      "cells": [
+        "ai",
+        "",
+        "Bắt đầu bằng âm “a” với khẩu hình mở rộng, sau đó chuyển mượt sang “i” khi môi dẹt và lưỡi nâng dần về phía trước. Âm chuyển rõ và tự nhiên, giống “ai” tiếng Việt."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/003-ai.mp3"
+    },
+    {
+      "group": "2.1 Nhóm vận mẫu mở miệng khi phát âm",
+      "label": "ei",
+      "cells": [
+        "ei",
+        "",
+        "Khởi đầu bằng âm gần “ê”, rồi lướt nhẹ sang “i”. Môi thu dần, lưỡi tiến lên phía trước. Âm sáng và gọn, tương tự “ây” nhưng mảnh hơn."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/004-ei.mp3"
+    },
+    {
+      "group": "2.1 Nhóm vận mẫu mở miệng khi phát âm",
+      "label": "ao",
+      "cells": [
+        "ao",
+        "",
+        "Mở đầu bằng “a” vang và rộng, rồi thu khẩu hình để chuyển sang âm giống “o”. Lưỡi bắt đầu thấp rồi lùi nhẹ về sau. Âm chuyển đầy và mượt, giống “ao” tiếng Việt."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/005-ao.mp3"
+    },
+    {
+      "group": "2.1 Nhóm vận mẫu mở miệng khi phát âm",
+      "label": "ou",
+      "cells": [
+        "ou",
+        "",
+        "Xuất phát từ âm gần “âu”, sau đó khép khẩu hình nhẹ để kết thúc bằng âm “u” thoát nhanh. Lưỡi hơi nâng về phía sau. Âm gọn, sáng và rất dễ nhận diện."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/006-ou.mp3"
+    },
+    {
+      "group": "2.1 Nhóm vận mẫu mở miệng khi phát âm",
+      "label": "an",
+      "cells": [
+        "an",
+        "",
+        "Miệng mở thoải mái, lưỡi hạ thấp rồi nâng phần đầu để kết thúc bằng âm mũi “n”. Âm rõ ràng, tương đương “an” trong tiếng Việt nhưng vang hơn."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/007-an.mp3"
+    },
+    {
+      "group": "2.1 Nhóm vận mẫu mở miệng khi phát âm",
+      "label": "en",
+      "cells": [
+        "en",
+        "",
+        "Miệng mở vừa, lưỡi nâng nhẹ phần giữa trước khi vào âm mũi “n”. Âm hơi ngắn và gọn, na ná “ân” nhưng dứt khoát và thoát hơn."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/008-en.mp3"
+    },
+    {
+      "group": "2.1 Nhóm vận mẫu mở miệng khi phát âm",
+      "label": "ang",
+      "cells": [
+        "ang",
+        "",
+        "Khẩu hình mở rộng, âm vang xuống họng. Lưỡi hạ thấp khi bắt đầu, rồi nâng phần sau để tạo âm “ng”. Âm sâu, vang và đầy, gần giống “ang” tiếng Việt."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/009-ang.mp3"
+    },
+    {
+      "group": "2.1 Nhóm vận mẫu mở miệng khi phát âm",
+      "label": "eng",
+      "cells": [
+        "eng",
+        "",
+        "Miệng mở vừa, lưỡi nâng ở phần giữa và sau. Khi vào “ng”, âm trở nên vang nhưng mềm. Gần với “âng” nhưng phát âm ngắn và gọn hơn."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/010-eng.mp3"
+    },
+    {
+      "group": "2.2 Nhóm vận mẫu đều răng khi phát âm",
+      "label": "i",
+      "cells": [
+        "i",
+        "",
+        "Miệng giữ trạng thái dẹt, răng gần nhau; lưỡi nâng cao gần vòm răng trên. Âm sắc sáng, mảnh, tương tự như âm “i” trong tiếng Việt."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/011-i.mp3"
+    },
+    {
+      "group": "2.2 Nhóm vận mẫu đều răng khi phát âm",
+      "label": "ia",
+      "cells": [
+        "ia",
+        "",
+        "Bắt đầu với âm “i” mảnh, sáng (miệng dẹt, lưỡi nâng cao), sau đó chuyển nhẹ nhàng sang “a” với miệng mở vừa. Âm thanh chuyển tiếp mượt mà, vẫn giữ được chất sáng, mảnh đặc trưng của “i”."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/012-ia.mp3"
+    },
+    {
+      "group": "2.2 Nhóm vận mẫu đều răng khi phát âm",
+      "label": "ie",
+      "cells": [
+        "ie",
+        "",
+        "Khởi phát bằng “i” sáng, mảnh, tiếp nối bằng “e” (miệng mở vừa, lưỡi hạ nhẹ). Âm thanh rõ ràng, sáng và vang nhẹ."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/013-ie.mp3"
+    },
+    {
+      "group": "2.2 Nhóm vận mẫu đều răng khi phát âm",
+      "label": "iao",
+      "cells": [
+        "iao",
+        "",
+        "Bắt đầu bằng âm “i” mảnh, chuyển sang “a” rộng và kết thúc bằng “o” tròn nhẹ. Khẩu hình thay đổi từ hẹp sang rộng, âm thanh chuyển tiếp mềm mại, tự nhiên."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/014-iao.mp3"
+    },
+    {
+      "group": "2.2 Nhóm vận mẫu đều răng khi phát âm",
+      "label": "in",
+      "cells": [
+        "in",
+        "",
+        "Miệng dẹt, lưỡi nâng cao phía trước, kết thúc bằng âm mũi “n”. Âm sắc sáng, ngắn gọn, rõ ràng."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/015-in.mp3"
+    },
+    {
+      "group": "2.2 Nhóm vận mẫu đều răng khi phát âm",
+      "label": "ian",
+      "cells": [
+        "ian",
+        "",
+        "Bắt đầu bằng “i” mảnh, chuyển sang “a”, kết thúc bằng âm mũi “n”. Âm thanh vẫn giữ được độ mảnh, vang nhẹ và rõ ràng."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/016-ian.mp3"
+    },
+    {
+      "group": "2.2 Nhóm vận mẫu đều răng khi phát âm",
+      "label": "iang",
+      "cells": [
+        "iang",
+        "",
+        "Khởi đầu với “i” mảnh, chuyển sang “a” rộng, kết thúc bằng âm mũi “ng”. Âm vang nhẹ, sáng hơn so với các vận mẫu nhóm mở miệng, rõ nét và mượt mà."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/017-iang.mp3"
+    },
+    {
+      "group": "2.2 Nhóm vận mẫu đều răng khi phát âm",
+      "label": "ing",
+      "cells": [
+        "ing",
+        "",
+        "Miệng dẹt, lưỡi nâng cao, kết thúc bằng âm mũi “ng”. Âm thanh sắc nét, mảnh và vang nhẹ, khác biệt rõ rệt so với “eng” trong nhóm mở miệng."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/018-ing.mp3"
+    },
+    {
+      "group": "2.3 Nhóm vận mẫu ngậm miệng khi phát âm",
+      "label": "u",
+      "cells": [
+        "u",
+        "",
+        "Môi tròn khép, lưỡi nâng vừa phía sau; âm sắc tròn, ấm và sâu; tương tự âm “u” trong tiếng Việt."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/019-u.mp3"
+    },
+    {
+      "group": "2.3 Nhóm vận mẫu ngậm miệng khi phát âm",
+      "label": "ua",
+      "cells": [
+        "ua",
+        "",
+        "Khởi đầu bằng “u” tròn ấm, sau đó mở rộng nhẹ sang “a” (miệng mở vừa, lưỡi hạ thấp); âm thanh chuyển mượt, vẫn giữ độ tròn ấm của “u”."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/020-ua.mp3"
+    },
+    {
+      "group": "2.3 Nhóm vận mẫu ngậm miệng khi phát âm",
+      "label": "uo",
+      "cells": [
+        "uo",
+        "",
+        "Bắt đầu với “u” tròn ấm, kết thúc bằng “o” tròn nhẹ; khẩu hình duy trì tròn, âm vang, dày và rõ ràng."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/021-uo.mp3"
+    },
+    {
+      "group": "2.3 Nhóm vận mẫu ngậm miệng khi phát âm",
+      "label": "uai",
+      "cells": [
+        "uai",
+        "",
+        "Khởi âm “u” tròn, chuyển sang “a” mở, kết thúc bằng âm “i” mảnh; âm thanh uyển chuyển, kết hợp giữa ấm áp và sáng mảnh."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/022-uai.mp3"
+    },
+    {
+      "group": "2.3 Nhóm vận mẫu ngậm miệng khi phát âm",
+      "label": "uei / ui",
+      "cells": [
+        "uei / ui",
+        "",
+        "Bắt đầu với “u” tròn, kết thúc bằng “ei/i” sáng; âm thanh sắc nét, hơi dài, tạo cảm giác chuyển tiếp từ tròn sang sáng mảnh."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/023-uei-ui.mp3"
+    },
+    {
+      "group": "2.3 Nhóm vận mẫu ngậm miệng khi phát âm",
+      "label": "uan",
+      "cells": [
+        "uan",
+        "",
+        "Khởi đầu bằng “u” tròn ấm, chuyển sang “a” mở, kết thúc bằng âm mũi “n”; âm vang, tròn và rõ ràng."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/024-uan.mp3"
+    },
+    {
+      "group": "2.3 Nhóm vận mẫu ngậm miệng khi phát âm",
+      "label": "uen/un",
+      "cells": [
+        "uen/un",
+        "",
+        "Miệng tròn, lưỡi hơi nâng phía sau; kết thúc bằng âm mũi “n”; âm sắc tròn, ấm, ngắn gọn và rõ ràng."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/025-uen-un.mp3"
+    },
+    {
+      "group": "2.3 Nhóm vận mẫu ngậm miệng khi phát âm",
+      "label": "uang",
+      "cells": [
+        "uang",
+        "",
+        "Khởi âm “u” tròn, chuyển sang “a” mở, kết thúc bằng âm mũi “ng”; âm vang dày, tròn, lan tỏa và rõ rệt."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/026-uang.mp3"
+    },
+    {
+      "group": "2.3 Nhóm vận mẫu ngậm miệng khi phát âm",
+      "label": "ueng",
+      "cells": [
+        "ueng",
+        "",
+        "Bắt đầu bằng “u” tròn, kết thúc bằng âm mũi “ng” mở rộng; âm tròn, vang và sâu, tạo cảm giác chắc chắn, khác với “eng” nhóm ngậm miệng."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/027-ueng.mp3"
+    },
+    {
+      "group": "2.3 Nhóm vận mẫu ngậm miệng khi phát âm",
+      "label": "ong",
+      "cells": [
+        "ong",
+        "",
+        "Khởi đầu bằng âm “u” tròn ấm rất rõ (môi tròn khép chặt, lưỡi nâng cao phía sau giống hệt âm “u” đơn), sau đó miệng vẫn giữ độ tròn nhưng hơi mở rộng nhẹ và lưỡi hạ xuống một chút, chuyển sang âm “-ng” mũi họng sâu."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/028-ong.mp3"
+    },
+    {
+      "group": "2.4 Nhóm vận mẫu chụm miệng khi phát âm",
+      "label": "ü",
+      "cells": [
+        "ü",
+        "",
+        "Khẩu hình tròn nhỏ, môi chụm lại như đang phát âm “u”. Giữ môi tròn, hơi hướng ra trước, lưỡi nâng cao và đẩy nhẹ lên phía trước. Âm sắc sáng và mềm, tương tự âm “uy” nhưng hẹp và tròn môi hơn."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/029-u.mp3"
+    },
+    {
+      "group": "2.4 Nhóm vận mẫu chụm miệng khi phát âm",
+      "label": "üe",
+      "cells": [
+        "üe",
+        "",
+        "Bắt đầu với âm ü, môi chụm tròn nhỏ. Sau đó chuyển nhẹ sang âm e: mở môi ra nhưng vẫn giữ hơi tròn, lưỡi hạ xuống và lùi nhẹ về sau. Khi nghe, âm này giống như “uyê”, nhưng phần đầu âm vẫn căng và tròn hơn."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/030-ue.mp3"
+    },
+    {
+      "group": "2.4 Nhóm vận mẫu chụm miệng khi phát âm",
+      "label": "üan",
+      "cells": [
+        "üan",
+        "",
+        "Bắt đầu với âm ü, môi chụm tròn nhỏ và lưỡi nâng cao. Sau đó chuyển sang phần vần “an”, mở rộng môi dần, lưỡi hạ xuống và hơi lùi về sau. Khi phát âm, âm này nghe giống “uyên” trong tiếng Việt."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/031-uan.mp3"
+    },
+    {
+      "group": "2.4 Nhóm vận mẫu chụm miệng khi phát âm",
+      "label": "ün",
+      "cells": [
+        "ün",
+        "",
+        "Bắt đầu với âm ü, môi chụm tròn nhỏ, lưỡi nâng cao phía trước. Khi chuyển sang âm cuối n, mở môi nhẹ, giữ độ tròn, đầu lưỡi chạm đúng vị trí phát âm n. Âm này ngắn, gọn, nghe gần giống “uyn” trong tiếng Việt, nhưng căng và tròn môi hơn."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/032-un.mp3"
+    },
+    {
+      "group": "2.4 Nhóm vận mẫu chụm miệng khi phát âm",
+      "label": "iong",
+      "cells": [
+        "iong",
+        "",
+        "Bắt đầu bằng âm giống i, nhưng môi chụm tròn nhẹ như giữa “i” và “u”. Sau đó nhanh chóng chuyển sang âm ong: môi vẫn tròn và hơi đưa ra trước, âm mũi cuối vang nhẹ nhưng gọn. Âm này nghe giống “yong” nhưng phần tròn môi rõ hơn."
+      ],
+      "headers": [
+        "Vận mẫu",
+        "Nghe âm",
+        "Cách phát âm"
+      ],
+      "file": "van-mau/033-iong.mp3"
+    }
+  ],
+  "thanh-dieu": [
+    {
+      "group": "4 thanh điệu trong tiếng Trung và cách phát âm",
+      "label": "Thanh 1 Âm bình (阴平 /yīnpíng/)",
+      "cells": [
+        "Thanh 1 Âm bình (阴平 /yīnpíng/)",
+        "-",
+        "",
+        "5 → 5",
+        "Giọng cao, đều và ổn định. Khi đọc, giữ âm thanh ở mức cao liên tục, không lên xuống. Giống như đang hát một nốt cao duy trì lâu."
+      ],
+      "headers": [
+        "Thanh điệu",
+        "Ký hiệu",
+        "Nghe thanh điệu",
+        "Cao độ (thang 1–5)",
+        "Cách đọc"
+      ],
+      "file": "thanh-dieu/000-thanh-1-am-binh-yinping.mp3"
+    },
+    {
+      "group": "4 thanh điệu trong tiếng Trung và cách phát âm",
+      "label": "Thanh 2 Dương bình (阳/yángpíng/)",
+      "cells": [
+        "Thanh 2 Dương bình (阳/yángpíng/)",
+        "´",
+        "",
+        "3 → 5",
+        "Âm đi từ trung bình lên cao. Khi đọc, bắt đầu ở mức vừa rồi tăng dần, tạo cảm giác âm thanh “nhô lên”. Giống như hỏi nhẹ hoặc nhấn mạnh sự vật."
+      ],
+      "headers": [
+        "Thanh điệu",
+        "Ký hiệu",
+        "Nghe thanh điệu",
+        "Cao độ (thang 1–5)",
+        "Cách đọc"
+      ],
+      "file": "thanh-dieu/001-thanh-2-duong-binh-yangping.mp3"
+    },
+    {
+      "group": "4 thanh điệu trong tiếng Trung và cách phát âm",
+      "label": "Thanh 3 Thượng thanh (上 /shàngshēng/)",
+      "cells": [
+        "Thanh 3 Thượng thanh (上 /shàngshēng/)",
+        "̌",
+        "",
+        "2 → 1 → 4",
+        "Âm đi xuống rồi lên. Khi đọc, giọng bắt đầu trung bình, hạ thấp, sau đó nhảy lên vừa. Âm này có cảm giác “lượn sóng”, cần luyện để phát âm rõ ràng."
+      ],
+      "headers": [
+        "Thanh điệu",
+        "Ký hiệu",
+        "Nghe thanh điệu",
+        "Cao độ (thang 1–5)",
+        "Cách đọc"
+      ],
+      "file": "thanh-dieu/002-thanh-3-thuong-thanh-shangsheng.mp3"
+    },
+    {
+      "group": "4 thanh điệu trong tiếng Trung và cách phát âm",
+      "label": "Thanh 4 Khứ thanh (去声 /qùshēng/)",
+      "cells": [
+        "Thanh 4 Khứ thanh (去声 /qùshēng/)",
+        "̀",
+        "",
+        "5 → 1",
+        "Giọng đi từ cao xuống thấp nhanh và mạnh. Khi đọc, tạo cảm giác “chốt” câu hoặc nhấn mạnh, giống như ra lệnh hay kết thúc câu"
+      ],
+      "headers": [
+        "Thanh điệu",
+        "Ký hiệu",
+        "Nghe thanh điệu",
+        "Cao độ (thang 1–5)",
+        "Cách đọc"
+      ],
+      "file": "thanh-dieu/003-thanh-4-khu-thanh-qusheng.mp3"
+    },
+    {
+      "group": "4 thanh điệu trong tiếng Trung và cách phát âm",
+      "label": "Thanh nhẹ (轻声/qīngshēng/)",
+      "cells": [
+        "Thanh nhẹ (轻声/qīngshēng/)",
+        "Thay đổi tùy từ",
+        "",
+        "",
+        "Phát âm ngắn, nhẹ nhàng và nhanh. Âm độ của Thanh nhẹ phụ thuộc vào Thanh điệu của âm tiết đứng ngay trước nó. Thanh nhẹ không mang cao độ cố định."
+      ],
+      "headers": [
+        "Thanh điệu",
+        "Ký hiệu",
+        "Nghe thanh điệu",
+        "Cao độ (thang 1–5)",
+        "Cách đọc"
+      ],
+      "file": "thanh-dieu/004-thanh-nhe-qingsheng.mp3"
+    },
+    {
+      "group": "Thanh điệu có bị biến đổi khi phát âm thực tế không?",
+      "label": "Hai thanh 3 liền nhau",
+      "cells": [
+        "Hai thanh 3 liền nhau",
+        "Thanh 3 thứ nhất → đọc thành thanh 2",
+        "/kě yǐ/ → /ké yǐ/",
+        "",
+        "Pinyin viết giữ nguyên, chỉ đổi cách đọc."
+      ],
+      "headers": [
+        "Trường hợp",
+        "Quy tắc biến đổi",
+        "Ví dụ",
+        "Nghe âm thanh",
+        "Ghi chú"
+      ],
+      "file": "thanh-dieu/005-hai-thanh-3-lien-nhau.mp3"
+    },
+    {
+      "group": "Thanh điệu có bị biến đổi khi phát âm thực tế không?",
+      "label": "Ba thanh 3 liền nhau",
+      "cells": [
+        "Ba thanh 3 liền nhau",
+        "Đọc thành: Thanh 2 + Thanh 2 + Thanh 3",
+        "/lǎo Lǐ hǎo/ → /láo lí hǎo/",
+        "",
+        "Trong khẩu ngữ, người bản xứ thường nâng 2 thanh đầu."
+      ],
+      "headers": [
+        "Trường hợp",
+        "Quy tắc biến đổi",
+        "Ví dụ",
+        "Nghe âm thanh",
+        "Ghi chú"
+      ],
+      "file": "thanh-dieu/006-ba-thanh-3-lien-nhau.mp3"
+    },
+    {
+      "group": "Thanh điệu có bị biến đổi khi phát âm thực tế không?",
+      "label": "“不” /bù/ + Thanh 4",
+      "cells": [
+        "“不” /bù/ + Thanh 4",
+        "“不” → đọc thành Thanh 2",
+        "/bù gào/ → /bú gào/",
+        "",
+        "“不” đứng trước thanh 1, 2, 3 → vẫn đọc /bù/"
+      ],
+      "headers": [
+        "Trường hợp",
+        "Quy tắc biến đổi",
+        "Ví dụ",
+        "Nghe âm thanh",
+        "Ghi chú"
+      ],
+      "file": "thanh-dieu/007-bu-thanh-4.mp3"
+    },
+    {
+      "group": "Thanh điệu có bị biến đổi khi phát âm thực tế không?",
+      "label": "“一” /yī/ + Thanh 4",
+      "cells": [
+        "“一” /yī/ + Thanh 4",
+        "“一” → đọc thành Thanh 2",
+        "/yī kàn/ → /yí kàn/",
+        "",
+        "Đứng trước Thanh 1, 2, 3 → đọc yì."
+      ],
+      "headers": [
+        "Trường hợp",
+        "Quy tắc biến đổi",
+        "Ví dụ",
+        "Nghe âm thanh",
+        "Ghi chú"
+      ],
+      "file": "thanh-dieu/008-yi-thanh-4.mp3"
+    },
+    {
+      "group": "Thanh điệu có bị biến đổi khi phát âm thực tế không?",
+      "label": "“一” đứng cuối câu hoặc đứng riêng",
+      "cells": [
+        "“一” đứng cuối câu hoặc đứng riêng",
+        "Đọc thành thanh 4",
+        "/yī xià/ → /yì xià/",
+        "",
+        "Cuối câu thường chuyển sang /yì/ cho tự nhiên."
+      ],
+      "headers": [
+        "Trường hợp",
+        "Quy tắc biến đổi",
+        "Ví dụ",
+        "Nghe âm thanh",
+        "Ghi chú"
+      ],
+      "file": "thanh-dieu/009-ung-cuoi-cau-hoac-ung-rieng.mp3"
+    },
+    {
+      "group": "Thanh điệu có bị biến đổi khi phát âm thực tế không?",
+      "label": "Thanh 3 + Thanh 1/2/4",
+      "cells": [
+        "Thanh 3 + Thanh 1/2/4",
+        "Thanh 3 → đọc nửa thanh (hạ xuống, không nâng lên)",
+        "/hěn hǎo/ → hén hǎo",
+        "",
+        "Đây là biến điệu phổ biến nhất trong khẩu ngữ."
+      ],
+      "headers": [
+        "Trường hợp",
+        "Quy tắc biến đổi",
+        "Ví dụ",
+        "Nghe âm thanh",
+        "Ghi chú"
+      ],
+      "file": "thanh-dieu/010-thanh-3-thanh-1-2-4.mp3"
+    },
+    {
+      "group": "Thanh điệu có bị biến đổi khi phát âm thực tế không?",
+      "label":  "Thanh 3 + Thanh 1/2/4",
+      "cells": [
+        "Thanh 3 + Thanh 1/2/4",
+        "Thanh 3 → đọc nửa thanh (hạ xuống, không nâng lên)",
+        "/hěn duō/ → hén duō",
+        "",
+        "Đây là biến điệu phổ biến nhất trong khẩu ngữ."
+      ],
+      "headers": [
+        "Trường hợp",
+        "Quy tắc biến đổi",
+        "Ví dụ",
+        "Nghe âm thanh",
+        "Ghi chú"
+      ],
+      "file": "thanh-dieu/011-hen-duo-hen-duo.mp3"
+    },
+    {
+      "group": "Thanh điệu có bị biến đổi khi phát âm thực tế không?",
+      "label": "Thanh có dấu + Thanh nhẹ",
+      "cells": [
+        "Thanh có dấu + Thanh nhẹ",
+        "Âm tiết thứ 2 đọc nhẹ, nhanh, không nhấn",
+        "/péngyou/",
+        "",
+        "90% trợ từ, hậu tố trong khẩu ngữ là thanh nhẹ, Thanh nhẹ chỉ lướt qua nhanh"
+      ],
+      "headers": [
+        "Trường hợp",
+        "Quy tắc biến đổi",
+        "Ví dụ",
+        "Nghe âm thanh",
+        "Ghi chú"
+      ],
+      "file": "thanh-dieu/012-thanh-co-dau-thanh-nhe.mp3"
+    },
+    {
+      "group": "Thanh điệu có bị biến đổi khi phát âm thực tế không?",
+      "label": "Thanh có dấu + Thanh nhẹ",
+      "cells": [
+        "Thanh có dấu + Thanh nhẹ",
+        "Âm tiết thứ 2 đọc nhẹ, nhanh, không nhấn",
+        "/shénme/",
+        "",
+        "90% trợ từ, hậu tố trong khẩu ngữ là thanh nhẹ, Thanh nhẹ chỉ lướt qua nhanh"
+      ],
+      "headers": [
+        "Trường hợp",
+        "Quy tắc biến đổi",
+        "Ví dụ",
+        "Nghe âm thanh",
+        "Ghi chú"
+      ],
+      "file": "thanh-dieu/013-shenme.mp3"
+    },
+    {
+      "group": "Thanh điệu có bị biến đổi khi phát âm thực tế không?",
+      "label": "Thanh 4 + bất kỳ Thanh nào",
+      "cells": [
+        "Thanh 4 + bất kỳ Thanh nào",
+        "Thanh 4 giữ độ rơi mạnh, âm sau đọc nhẹ",
+        "/kànjiàn/",
+        "",
+        "Thanh 4 luôn dứt khoát."
+      ],
+      "headers": [
+        "Trường hợp",
+        "Quy tắc biến đổi",
+        "Ví dụ",
+        "Nghe âm thanh",
+        "Ghi chú"
+      ],
+      "file": "thanh-dieu/014-thanh-4-bat-ky-thanh-nao.mp3"
+    },
+    {
+      "group": "Thanh điệu có bị biến đổi khi phát âm thực tế không?",
+      "label": "Thanh 4 + bất kỳ Thanh nào",
+      "cells": [
+        "Thanh 4 + bất kỳ Thanh nào",
+        "Thanh 4 giữ độ rơi mạnh, âm sau đọc nhẹ",
+        "/dàjiā/",
+        "",
+        "Thanh 4 luôn dứt khoát."
+      ],
+      "headers": [
+        "Trường hợp",
+        "Quy tắc biến đổi",
+        "Ví dụ",
+        "Nghe âm thanh",
+        "Ghi chú"
+      ],
+      "file": "thanh-dieu/015-dajia.mp3"
+    }
+  ],
+  "quy-tac-phat-am": [
+    {
+      "group": "Quy tắc 1: Biến điệu thanh 3 khi phát âm tiếng Trung",
+      "label": "你好 /nǐ + hǎo/ --> /ní hǎo/ xin chào",
+      "cells": [
+        "你好 /nǐ + hǎo/ --> /ní hǎo/ xin chào",
+        ""
+      ],
+      "headers": null,
+      "file": "quy-tac-phat-am/000-ni-hao-ni-hao-xin-chao.mp3"
+    },
+    {
+      "group": "Quy tắc 1: Biến điệu thanh 3 khi phát âm tiếng Trung",
+      "label": "很好 /hěn + hǎo/ --> /hén hǎo/ rất tốt",
+      "cells": [
+        "很好 /hěn + hǎo/ --> /hén hǎo/ rất tốt",
+        ""
+      ],
+      "headers": null,
+      "file": "quy-tac-phat-am/001-hen-hao-hen-hao-rat-tot.mp3"
+    },
+    {
+      "group": "Quy tắc 1: Biến điệu thanh 3 khi phát âm tiếng Trung",
+      "label": "语法 /yǔ + fǎ/ --> /yú fǎ/ ngữ pháp",
+      "cells": [
+        "语法 /yǔ + fǎ/ --> /yú fǎ/ ngữ pháp",
+        ""
+      ],
+      "headers": null,
+      "file": "quy-tac-phat-am/002-yu-fa-yu-fa-ngu-phap.mp3"
+    },
+    {
+      "group": "Quy tắc 1: Biến điệu thanh 3 khi phát âm tiếng Trung",
+      "label": "小姐 /xiǎo + jiě/ --> /xiáo jiě/ tiểu thư",
+      "cells": [
+        "小姐 /xiǎo + jiě/ --> /xiáo jiě/ tiểu thư",
+        ""
+      ],
+      "headers": null,
+      "file": "quy-tac-phat-am/003-xiao-jie-xiao-jie-tieu-thu.mp3"
+    },
+    {
+      "group": "Quy tắc 1: Biến điệu thanh 3 khi phát âm tiếng Trung",
+      "label": "洗脸水 /xǐ + liǎn + shuǐ/ --> /xí lián shuǐ/ Nước rửa mặt",
+      "cells": [
+        "洗脸水 /xǐ + liǎn + shuǐ/ --> /xí lián shuǐ/ Nước rửa mặt",
+        ""
+      ],
+      "headers": null,
+      "file": "quy-tac-phat-am/004-xi-lian-shui-xi-lian-shui-nuoc-rua-mat.mp3"
+    },
+    {
+      "group": "Quy tắc 1: Biến điệu thanh 3 khi phát âm tiếng Trung",
+      "label": "我想你 /wǒ + xiǎng + nǐ/ --> /wǒ xiáng nǐ/ Tôi nhớ bạn.",
+      "cells": [
+        "我想你 /wǒ + xiǎng + nǐ/ --> /wǒ xiáng nǐ/ Tôi nhớ bạn.",
+        ""
+      ],
+      "headers": null,
+      "file": "quy-tac-phat-am/005-wo-xiang-ni-wo-xiang-ni-toi-nho-ban.mp3"
+    },
+    {
+      "group": "Quy tắc 1: Biến điệu thanh 3 khi phát âm tiếng Trung",
+      "label": "我也想买 /wǒ + yě + xiǎng + mǎi/ --> /wó yé xiáng mǎi/ Tôi cũng muốn mua.",
+      "cells": [
+        "我也想买 /wǒ + yě + xiǎng + mǎi/ --> /wó yé xiáng mǎi/ Tôi cũng muốn mua.",
+        ""
+      ],
+      "headers": null,
+      "file": "quy-tac-phat-am/006-wo-ye-xiang-mai-wo-ye-xiang-mai-toi-cung-muon-mua.mp3"
+    },
+    {
+      "group": "Quy tắc 1: Biến điệu thanh 3 khi phát âm tiếng Trung",
+      "label": "请你给我 /qǐng + nǐ + gěi + wǒ/ --> /qíng ní géi wó/ Xin bạn đưa cho tôi.",
+      "cells": [
+        "请你给我 /qǐng + nǐ + gěi + wǒ/ --> /qíng ní géi wó/ Xin bạn đưa cho tôi.",
+        ""
+      ],
+      "headers": null,
+      "file": "quy-tac-phat-am/007-qing-ni-gei-wo-qing-ni-gei-wo-xin-ban-ua-cho-toi.mp3"
+    },
+    {
+      "group": "Quy tắc 1: Biến điệu thanh 3 khi phát âm tiếng Trung",
+      "label": "很高 /hěn gāo/",
+      "cells": [
+        "很高 /hěn gāo/",
+        ""
+      ],
+      "headers": null,
+      "file": "quy-tac-phat-am/008-hen-gao.mp3"
+    },
+    {
+      "group": "Quy tắc 1: Biến điệu thanh 3 khi phát âm tiếng Trung",
+      "label": "我懂了 /wǒ dǒng le/",
+      "cells": [
+        "我懂了 /wǒ dǒng le/",
+        ""
+      ],
+      "headers": null,
+      "file": "quy-tac-phat-am/009-wo-dong-le.mp3"
+    },
+    {
+      "group": "Quy tắc 2: Biến điệu của “一 /yī/” khi phát âm",
+      "label": "Trường hợp 1: Biến điệu của “一 /yī/” khi đứng một mình hoặc cuối câu - Giữ nguyên thanh 1",
+      "cells": [
+        "Trường hợp 1: Biến điệu của “一 /yī/” khi đứng một mình hoặc cuối câu - Giữ nguyên thanh 1",
+        "第一 /dì yī/ thứ nhất",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/010-truong-hop-1-bien-ieu-cua-yi-khi-ung-mot-minh-hoac-cuoi-cau-.mp3"
+    },
+    {
+      "group": "Quy tắc 2: Biến điệu của “一 /yī/” khi phát âm",
+      "label": "这是一 /zhè shì yī/ đây là một",
+      "cells": [
+        "这是一 /zhè shì yī/ đây là một",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/011-zhe-shi-yi-ay-la-mot.mp3"
+    },
+    {
+      "group": "Quy tắc 2: Biến điệu của “一 /yī/” khi phát âm",
+      "label": "Trường hợp 2: Biến điệu của “一 /yī/” khi đứng trước một âm tiết có thanh 4: Biến thành thanh 2 Công thức: yī (Thanh 1) + Thanh 4 --> yí (Thanh 2) + Thanh 4",
+      "cells": [
+        "Trường hợp 2: Biến điệu của “一 /yī/” khi đứng trước một âm tiết có thanh 4: Biến thành thanh 2 Công thức: yī (Thanh 1) + Thanh 4 --> yí (Thanh 2) + Thanh 4",
+        "一个 /yī + gè/ --> /yí gè/ một cái/một người",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/012-truong-hop-2-bien-ieu-cua-yi-khi-ung-truoc-mot-am-tiet-co-th.mp3"
+    },
+    {
+      "group": "Quy tắc 2: Biến điệu của “一 /yī/” khi phát âm",
+      "label": "一定 /yī + dìng/ --> /yí dìng/ nhất định",
+      "cells": [
+        "一定 /yī + dìng/ --> /yí dìng/ nhất định",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/013-yi-ding-yi-ding-nhat-inh.mp3"
+    },
+    {
+      "group": "Quy tắc 2: Biến điệu của “一 /yī/” khi phát âm",
+      "label": "一次 /yī + cì/ --> /yí cì/ một lần",
+      "cells": [
+        "一次 /yī + cì/ --> /yí cì/ một lần",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/014-yi-ci-yi-ci-mot-lan.mp3"
+    },
+    {
+      "group": "Quy tắc 2: Biến điệu của “一 /yī/” khi phát âm",
+      "label": "一块 /yī + kuài/ --> /yí kuài/ một miếng/một tệ",
+      "cells": [
+        "一块 /yī + kuài/ --> /yí kuài/ một miếng/một tệ",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/015-yi-kuai-yi-kuai-mot-mieng-mot-te.mp3"
+    },
+    {
+      "group": "Quy tắc 2: Biến điệu của “一 /yī/” khi phát âm",
+      "label": "Trường hợp 3: Biến điệu của “一 /yī/” khi đứng trước các âm tiết có thanh 1, 2, 3: Biến thành thanh 4 Công thức: yī (Thanh 1) + Thanh 1/Thanh 2/Thanh 3 --> yì (Thanh 4) + Thanh 1/Thanh 2/Thanh 3",
+      "cells": [
+        "Trường hợp 3: Biến điệu của “一 /yī/” khi đứng trước các âm tiết có thanh 1, 2, 3: Biến thành thanh 4 Công thức: yī (Thanh 1) + Thanh 1/Thanh 2/Thanh 3 --> yì (Thanh 4) + Thanh 1/Thanh 2/Thanh 3",
+        "一天 /yī + tiān/ --> /yì tiān/(một ngày)",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/016-truong-hop-3-bien-ieu-cua-yi-khi-ung-truoc-cac-am-tiet-co-th.mp3"
+    },
+    {
+      "group": "Quy tắc 2: Biến điệu của “一 /yī/” khi phát âm",
+      "label": "一年 /yī + nián/ --> /yì nián/ (một năm)",
+      "cells": [
+        "一年 /yī + nián/ --> /yì nián/ (một năm)",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/017-yi-nian-yi-nian-mot-nam.mp3"
+    },
+    {
+      "group": "Quy tắc 2: Biến điệu của “一 /yī/” khi phát âm",
+      "label": "一起 /yī + qǐ/ --> /yì qǐ/ (cùng nhau)",
+      "cells": [
+        "一起 /yī + qǐ/ --> /yì qǐ/ (cùng nhau)",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/018-yi-qi-yi-qi-cung-nhau.mp3"
+    },
+    {
+      "group": "Quy tắc 2: Biến điệu của “一 /yī/” khi phát âm",
+      "label": "Trường hợp 4: Trong động từ lặp lại hoặc giữa các từ có liên quan (ví dụ: số thứ tự, phần tử trong chuỗi): Thường biến thành thanh nhẹ",
+      "cells": [
+        "Trường hợp 4: Trong động từ lặp lại hoặc giữa các từ có liên quan (ví dụ: số thứ tự, phần tử trong chuỗi): Thường biến thành thanh nhẹ",
+        "看一看 /kàn yī kàn/ --> /kàn yi kàn/ (nhìn một cái)",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/019-truong-hop-4-trong-ong-tu-lap-lai-hoac-giua-cac-tu-co-lien-q.mp3"
+    },
+    {
+      "group": "Quy tắc 2: Biến điệu của “一 /yī/” khi phát âm",
+      "label": "听一听 /tīng yī tīng/ --> /tīng yi tīng/ (nghe một chút)",
+      "cells": [
+        "听一听 /tīng yī tīng/ --> /tīng yi tīng/ (nghe một chút)",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/020-ting-yi-ting-ting-yi-ting-nghe-mot-chut.mp3"
+    },
+    {
+      "group": "Quy tắc 2: Biến điệu của “一 /yī/” khi phát âm",
+      "label": "试一试 /shì yī shì/ --> /shì yi shì/ (thử một chút)",
+      "cells": [
+        "试一试 /shì yī shì/ --> /shì yi shì/ (thử một chút)",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/021-shi-yi-shi-shi-yi-shi-thu-mot-chut.mp3"
+    },
+    {
+      "group": "Quy tắc 3: Biến điệu của “不 /bù/” khi phát âm",
+      "label": "Trường hợp 1: Biến điệu của “不 /bù/” khi đứng trước một âm tiết có thanh 4: Biến thành thanh 2 Công thức: bù (Thanh 4) + Thanh 4 → bú (Thanh 2) + Thanh 4",
+      "cells": [
+        "Trường hợp 1: Biến điệu của “不 /bù/” khi đứng trước một âm tiết có thanh 4: Biến thành thanh 2 Công thức: bù (Thanh 4) + Thanh 4 → bú (Thanh 2) + Thanh 4",
+        "不去 /bù + qù/ --> /bú qù/ không đi",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/022-truong-hop-1-bien-ieu-cua-bu-khi-ung-truoc-mot-am-tiet-co-th.mp3"
+    },
+    {
+      "group": "Quy tắc 3: Biến điệu của “不 /bù/” khi phát âm",
+      "label": "不对 /bù + duì/ --> /bú duì/ không đúng",
+      "cells": [
+        "不对 /bù + duì/ --> /bú duì/ không đúng",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/023-bu-dui-bu-dui-khong-ung.mp3"
+    },
+    {
+      "group": "Quy tắc 3: Biến điệu của “不 /bù/” khi phát âm",
+      "label": "不要 /bù + yào/ --> /bú yào/ đừng/không muốn",
+      "cells": [
+        "不要 /bù + yào/ --> /bú yào/ đừng/không muốn",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/024-bu-yao-bu-yao-ung-khong-muon.mp3"
+    },
+    {
+      "group": "Quy tắc 3: Biến điệu của “不 /bù/” khi phát âm",
+      "label": "不是 /bù + shì/ --> /bú shì/ không phải",
+      "cells": [
+        "不是 /bù + shì/ --> /bú shì/ không phải",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/025-bu-shi-bu-shi-khong-phai.mp3"
+    },
+    {
+      "group": "Quy tắc 3: Biến điệu của “不 /bù/” khi phát âm",
+      "label": "Trường hợp 2: Biến điệu của “不 /bù/” trong cấu trúc nghi vấn hoặc trong động từ + bổ ngữ (không bao hàm phủ định hành động)Trong cấu trúc nghi vấn hoặc trong động từ + bổ ngữ (không bao hàm phủ định hành động), chữ \"不 /bù/\" thường biến thành thanh nhẹ.",
+      "cells": [
+        "Trường hợp 2: Biến điệu của “不 /bù/” trong cấu trúc nghi vấn hoặc trong động từ + bổ ngữ (không bao hàm phủ định hành động)Trong cấu trúc nghi vấn hoặc trong động từ + bổ ngữ (không bao hàm phủ định hành động), chữ \"不 /bù/\" thường biến thành thanh nhẹ.",
+        "好不好 /hǎo bù hǎo/ --> /hǎo bu hǎo/ (có tốt không?)",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/026-truong-hop-2-bien-ieu-cua-bu-trong-cau-truc-nghi-van-hoac-tr.mp3"
+    },
+    {
+      "group": "Quy tắc 3: Biến điệu của “不 /bù/” khi phát âm",
+      "label": "来不来 /lái bù lái/ --> /lái bu lái/ (có đến không?)",
+      "cells": [
+        "来不来 /lái bù lái/ --> /lái bu lái/ (có đến không?)",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/027-lai-bu-lai-lai-bu-lai-co-en-khong.mp3"
+    },
+    {
+      "group": "Quy tắc 3: Biến điệu của “不 /bù/” khi phát âm",
+      "label": "吃不了 /chī bù liǎo/ --> /chī bu liǎo/ (không ăn nổi/không ăn hết)",
+      "cells": [
+        "吃不了 /chī bù liǎo/ --> /chī bu liǎo/ (không ăn nổi/không ăn hết)",
+        ""
+      ],
+      "headers": [
+        "Quy tắc",
+        "Ví Dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/028-chi-bu-liao-chi-bu-liao-khong-an-noi-khong-an-het.mp3"
+    },
+    {
+      "group": "Quy tắc 4: Phát âm vận mẫu “i” sau z, c, s, zh, ch, sh, r",
+      "label": "z, c, s(Âm đầu lưỡi trước)",
+      "cells": [
+        "z, c, s(Âm đầu lưỡi trước)",
+        "zi",
+        "子 /zǐ/ Con",
+        "",
+        "Đặt đầu lưỡi chạm chân răng cửa trên, giữ cố định.Hơi thoát qua khe hẹp giữa đầu lưỡi và lợi trên.Phát âm gần giống âm “ưa” Âm gần đúng: zi - “zưa”, ci - “sưa”, si - “sưa”."
+      ],
+      "headers": [
+        "Nhóm thanh mẫu",
+        "Âm tiết ví dụ",
+        "Chữ Hán",
+        "Nghe phát âm",
+        "Cách phát âm"
+      ],
+      "file": "quy-tac-phat-am/029-z-c-s-am-au-luoi-truoc.mp3"
+    },
+    {
+      "group": "Quy tắc 4: Phát âm vận mẫu “i” sau z, c, s, zh, ch, sh, r",
+      "label": "ci",
+      "cells": [
+        "ci",
+        "词 /cí/ Từ",
+        ""
+      ],
+      "headers": [
+        "Nhóm thanh mẫu",
+        "Âm tiết ví dụ",
+        "Chữ Hán",
+        "Nghe phát âm",
+        "Cách phát âm"
+      ],
+      "file": "quy-tac-phat-am/030-ci.mp3"
+    },
+    {
+      "group": "Quy tắc 4: Phát âm vận mẫu “i” sau z, c, s, zh, ch, sh, r",
+      "label": "si",
+      "cells": [
+        "si",
+        "四 /sì/ Số 4",
+        ""
+      ],
+      "headers": [
+        "Nhóm thanh mẫu",
+        "Âm tiết ví dụ",
+        "Chữ Hán",
+        "Nghe phát âm",
+        "Cách phát âm"
+      ],
+      "file": "quy-tac-phat-am/031-si.mp3"
+    },
+    {
+      "group": "Quy tắc 4: Phát âm vận mẫu “i” sau z, c, s, zh, ch, sh, r",
+      "label": "zh, ch, sh, r(Âm đầu lưỡi sau, cuộn lưỡi)",
+      "cells": [
+        "zh, ch, sh, r(Âm đầu lưỡi sau, cuộn lưỡi)",
+        "zhi",
+        "知道 /zhīdào/ Biết",
+        "",
+        "Cuộn đầu lưỡi lên gần vòm miệng.Âm trầm, đục, miệng không mở nhiềuPhát âm gần giống với âm “ư”Âm gần đúng: zhi - “trư”, chi - “zhư”, shi - “shư”, ri - “rư”"
+      ],
+      "headers": [
+        "Nhóm thanh mẫu",
+        "Âm tiết ví dụ",
+        "Chữ Hán",
+        "Nghe phát âm",
+        "Cách phát âm"
+      ],
+      "file": "quy-tac-phat-am/032-zh-ch-sh-r-am-au-luoi-sau-cuon-luoi.mp3"
+    },
+    {
+      "group": "Quy tắc 4: Phát âm vận mẫu “i” sau z, c, s, zh, ch, sh, r",
+      "label": "chi",
+      "cells": [
+        "chi",
+        "吃 /chī/ Ăn",
+        ""
+      ],
+      "headers": [
+        "Nhóm thanh mẫu",
+        "Âm tiết ví dụ",
+        "Chữ Hán",
+        "Nghe phát âm",
+        "Cách phát âm"
+      ],
+      "file": "quy-tac-phat-am/033-chi.mp3"
+    },
+    {
+      "group": "Quy tắc 4: Phát âm vận mẫu “i” sau z, c, s, zh, ch, sh, r",
+      "label": "shi",
+      "cells": [
+        "shi",
+        "是 /shì/ Là",
+        ""
+      ],
+      "headers": [
+        "Nhóm thanh mẫu",
+        "Âm tiết ví dụ",
+        "Chữ Hán",
+        "Nghe phát âm",
+        "Cách phát âm"
+      ],
+      "file": "quy-tac-phat-am/034-shi.mp3"
+    },
+    {
+      "group": "Quy tắc 4: Phát âm vận mẫu “i” sau z, c, s, zh, ch, sh, r",
+      "label": "ri",
+      "cells": [
+        "ri",
+        "日 /rì/ Ngày",
+        ""
+      ],
+      "headers": [
+        "Nhóm thanh mẫu",
+        "Âm tiết ví dụ",
+        "Chữ Hán",
+        "Nghe phát âm",
+        "Cách phát âm"
+      ],
+      "file": "quy-tac-phat-am/035-ri.mp3"
+    },
+    {
+      "group": "Quy tắc 5: Phát âm vận mẫu “o” sau b, p, m, f",
+      "label": "波 / bō/ Sóng: --> /bua/",
+      "cells": [
+        "波 / bō/ Sóng: --> /bua/",
+        ""
+      ],
+      "headers": [
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/036-bo-song-bua.mp3"
+    },
+    {
+      "group": "Quy tắc 5: Phát âm vận mẫu “o” sau b, p, m, f",
+      "label": "坡 /pō/ Sườn đồi: --> /pua/",
+      "cells": [
+        "坡 /pō/ Sườn đồi: --> /pua/",
+        ""
+      ],
+      "headers": [
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/037-po-suon-oi-pua.mp3"
+    },
+    {
+      "group": "Quy tắc 5: Phát âm vận mẫu “o” sau b, p, m, f",
+      "label": "摸 /mō/ Sờ mó: --> /mua/",
+      "cells": [
+        "摸 /mō/ Sờ mó: --> /mua/",
+        ""
+      ],
+      "headers": [
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/038-mo-so-mo-mua.mp3"
+    },
+    {
+      "group": "Quy tắc 5: Phát âm vận mẫu “o” sau b, p, m, f",
+      "label": "佛 /fó/ Phật: --> /fua/",
+      "cells": [
+        "佛 /fó/ Phật: --> /fua/",
+        ""
+      ],
+      "headers": [
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/039-fo-phat-fua.mp3"
+    },
+    {
+      "group": "Quy tắc 10: Quy tắc ngắt nhịp theo cụm ý nghĩa",
+      "label": "今天早上｜老师给我们｜布置了一份作业。",
+      "cells": [
+        "今天早上｜老师给我们｜布置了一份作业。",
+        "/Jīntiān zǎoshang｜lǎoshī gěi wǒmen｜bùzhì le yí fèn zuòyè/Sáng nay, thầy/cô giáo đã giao cho chúng tôi một bài tập.",
+        "",
+        "→ Ngắt theo 3 ý: Thời gian｜Ai làm gì cho ai｜Nội dung hành động."
+      ],
+      "headers": [
+        "Câu Mẫu",
+        "Pinyin",
+        "Nghe phát âm",
+        "Cách ngắt nhịp"
+      ],
+      "file": "quy-tac-phat-am/040-item-40.mp3"
+    },
+    {
+      "group": "Quy tắc 10: Quy tắc ngắt nhịp theo cụm ý nghĩa",
+      "label": "他跑得｜特别快。",
+      "cells": [
+        "他跑得｜特别快。",
+        "/Tā pǎo de｜tèbié kuài/Anh ấy chạy rất nhanh.",
+        "",
+        "→ Ngắt giữa động từ + trợ từ “得” và phần bổ ngữ mô tả."
+      ],
+      "headers": [
+        "Câu Mẫu",
+        "Pinyin",
+        "Nghe phát âm",
+        "Cách ngắt nhịp"
+      ],
+      "file": "quy-tac-phat-am/041-item-41.mp3"
+    },
+    {
+      "group": "Quy tắc 10: Quy tắc ngắt nhịp theo cụm ý nghĩa",
+      "label": "在图书馆｜我找到了｜那本书。",
+      "cells": [
+        "在图书馆｜我找到了｜那本书。",
+        "/Zài túshūguǎn｜wǒ zhǎodào le｜nèi běn shū/Ở thư viện, tôi đã tìm thấy quyển sách đó.",
+        "",
+        "→ Ngắt theo 3 ý: Ở đâu｜Ai làm gì｜Kết quả là gì."
+      ],
+      "headers": [
+        "Câu Mẫu",
+        "Pinyin",
+        "Nghe phát âm",
+        "Cách ngắt nhịp"
+      ],
+      "file": "quy-tac-phat-am/042-item-42.mp3"
+    },
+    {
+      "group": "Quy tắc 10: Quy tắc ngắt nhịp theo cụm ý nghĩa",
+      "label": "开车的时候｜一定要｜注意安全。",
+      "cells": [
+        "开车的时候｜一定要｜注意安全。",
+        "Kāichē de shíhou｜yídìng yào｜zhùyì ānquán.Khi lái xe, nhất định phải chú ý an toàn.",
+        "",
+        "→ Ngắt theo nhịp nhấn của ý muốn nói: Khi lái xe｜nhất định phải｜chú ý an toàn."
+      ],
+      "headers": [
+        "Câu Mẫu",
+        "Pinyin",
+        "Nghe phát âm",
+        "Cách ngắt nhịp"
+      ],
+      "file": "quy-tac-phat-am/043-item-43.mp3"
+    },
+    {
+      "group": "Quy tắc 11: Quy tắc ngữ điệu câu",
+      "label": "Câu hỏi có 吗, 呢 hoặc câu hỏi lựa chọn (A 还是 B): cuối câu phải lên giọng",
+      "cells": [
+        "Câu hỏi có 吗, 呢 hoặc câu hỏi lựa chọn (A 还是 B): cuối câu phải lên giọng",
+        "Người nghe biết bạn đang mong chờ câu trả lời",
+        "你累吗？/nǐ lèi ma ↗",
+        ""
+      ],
+      "headers": [
+        "Ngữ điệu câu",
+        "Hiệu ứng truyền tải",
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/044-cau-hoi-co-hoac-cau-hoi-lua-chon-a-b-cuoi-cau-phai-len-giong.mp3"
+    },
+    {
+      "group": "Quy tắc 11: Quy tắc ngữ điệu câu",
+      "label": "你喜欢咖啡还是奶茶？/nǐ xǐhuan kāfēi háishì nǎichá ↗",
+      "cells": [
+        "你喜欢咖啡还是奶茶？/nǐ xǐhuan kāfēi háishì nǎichá ↗",
+        ""
+      ],
+      "headers": [
+        "Ngữ điệu câu",
+        "Hiệu ứng truyền tải",
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/045-ni-xihuan-kafei-haishi-naicha.mp3"
+    },
+    {
+      "group": "Quy tắc 11: Quy tắc ngữ điệu câu",
+      "label": "他在干嘛呢？/tā zài gàn má ne ↗",
+      "cells": [
+        "他在干嘛呢？/tā zài gàn má ne ↗",
+        ""
+      ],
+      "headers": [
+        "Ngữ điệu câu",
+        "Hiệu ứng truyền tải",
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/046-ta-zai-gan-ma-ne.mp3"
+    },
+    {
+      "group": "Quy tắc 11: Quy tắc ngữ điệu câu",
+      "label": "Câu hỏi có từ để hỏi (什么, 谁, 哪里, 什么时候, 为什么…): nhấn mạnh từ để hỏi + kéo dài nhẹ",
+      "cells": [
+        "Câu hỏi có từ để hỏi (什么, 谁, 哪里, 什么时候, 为什么…): nhấn mạnh từ để hỏi + kéo dài nhẹ",
+        "Nhấn mạnh từ để hỏi + kéo dài nhẹ làm câu hỏi rõ ràng, tự nhiên như người bản xứ",
+        "他是谁？/tā shì shéi ↗",
+        ""
+      ],
+      "headers": [
+        "Ngữ điệu câu",
+        "Hiệu ứng truyền tải",
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/047-cau-hoi-co-tu-e-hoi-nhan-manh-tu-e-hoi-keo-dai-nhe.mp3"
+    },
+    {
+      "group": "Quy tắc 11: Quy tắc ngữ điệu câu",
+      "label": "你去哪儿？/nǐ qù nǎr ↗",
+      "cells": [
+        "你去哪儿？/nǐ qù nǎr ↗",
+        ""
+      ],
+      "headers": [
+        "Ngữ điệu câu",
+        "Hiệu ứng truyền tải",
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/048-ni-qu-nar.mp3"
+    },
+    {
+      "group": "Quy tắc 11: Quy tắc ngữ điệu câu",
+      "label": "你想吃什么？/nǐ xiǎng chī shénme ↗",
+      "cells": [
+        "你想吃什么？/nǐ xiǎng chī shénme ↗",
+        ""
+      ],
+      "headers": [
+        "Ngữ điệu câu",
+        "Hiệu ứng truyền tải",
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/049-ni-xiang-chi-shenme.mp3"
+    },
+    {
+      "group": "Quy tắc 11: Quy tắc ngữ điệu câu",
+      "label": "Câu kể, câu trả lời: cuối câu hạ giọng xuống",
+      "cells": [
+        "Câu kể, câu trả lời: cuối câu hạ giọng xuống",
+        "Giúp người nghe chắc chắn, kết thúc ý rõ ràng",
+        "我明天有时间。/wǒ míngtiān yǒu shíjiān ↘",
+        ""
+      ],
+      "headers": [
+        "Ngữ điệu câu",
+        "Hiệu ứng truyền tải",
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/050-cau-ke-cau-tra-loi-cuoi-cau-ha-giong-xuong.mp3"
+    },
+    {
+      "group": "Quy tắc 11: Quy tắc ngữ điệu câu",
+      "label": "今天挺冷的。/jīntiān tǐng lěng de↘",
+      "cells": [
+        "今天挺冷的。/jīntiān tǐng lěng de↘",
+        ""
+      ],
+      "headers": [
+        "Ngữ điệu câu",
+        "Hiệu ứng truyền tải",
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/051-jintian-ting-leng-de.mp3"
+    },
+    {
+      "group": "Quy tắc 11: Quy tắc ngữ điệu câu",
+      "label": "我准备好了。/wǒ zhǔnbèi hǎo le↘",
+      "cells": [
+        "我准备好了。/wǒ zhǔnbèi hǎo le↘",
+        ""
+      ],
+      "headers": [
+        "Ngữ điệu câu",
+        "Hiệu ứng truyền tải",
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/052-wo-zhunbei-hao-le.mp3"
+    },
+    {
+      "group": "Quy tắc 11: Quy tắc ngữ điệu câu",
+      "label": "Câu phủ định + nhấn mạnh: âm cuối (đặc biệt thanh 4) phải xuống mạnh, dứt khoát",
+      "cells": [
+        "Câu phủ định + nhấn mạnh: âm cuối (đặc biệt thanh 4) phải xuống mạnh, dứt khoát",
+        "Thể hiện sự từ chối rõ ràng, cảm xúc mạnh",
+        "我不要！/wǒ bú yào ↘",
+        ""
+      ],
+      "headers": [
+        "Ngữ điệu câu",
+        "Hiệu ứng truyền tải",
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/053-cau-phu-inh-nhan-manh-am-cuoi-ac-biet-thanh-4-phai-xuong-man.mp3"
+    },
+    {
+      "group": "Quy tắc 11: Quy tắc ngữ điệu câu",
+      "label": "我不懂！/wǒ bù dǒng ↘",
+      "cells": [
+        "我不懂！/wǒ bù dǒng ↘",
+        ""
+      ],
+      "headers": [
+        "Ngữ điệu câu",
+        "Hiệu ứng truyền tải",
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/054-wo-bu-dong.mp3"
+    },
+    {
+      "group": "Quy tắc 11: Quy tắc ngữ điệu câu",
+      "label": "别说了！/bié shuō le ↘",
+      "cells": [
+        "别说了！/bié shuō le ↘",
+        ""
+      ],
+      "headers": [
+        "Ngữ điệu câu",
+        "Hiệu ứng truyền tải",
+        "Ví dụ",
+        "Nghe phát âm"
+      ],
+      "file": "quy-tac-phat-am/055-bie-shuo-le.mp3"
+    }
+  ]
+}

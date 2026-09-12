@@ -1,12 +1,11 @@
-import Header from "@/components/Header";
+import AppShell from "@/components/AppShell";
+import AuthButtons from "@/components/AuthButtons";
 import Footer from "@/components/Footer";
 
 export default function MarketingLayout({ children }: { children: React.ReactNode }) {
   return (
-    <>
-      <Header />
-      <main className="flex-1">{children}</main>
-      <Footer />
-    </>
+    <AppShell headerRight={<AuthButtons />} footer={<Footer />}>
+      {children}
+    </AppShell>
   );
 }

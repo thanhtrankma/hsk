@@ -91,16 +91,10 @@ export default async function Home() {
               gói gọn trong một nền tảng, giải thích hoàn toàn bằng tiếng Việt.
             </p>
             <div className="mt-7 flex flex-wrap items-center gap-3">
-              <Link
-                href="/register"
-                className="inline-flex items-center rounded-full bg-brand-500 px-6 py-3 text-sm font-bold text-white shadow-md transition-colors hover:bg-brand-600"
-              >
+              <Link href="/register" className="btn-primary px-6 py-3">
                 Bắt đầu học miễn phí
               </Link>
-              <Link
-                href="/hsk"
-                className="inline-flex items-center rounded-full border border-ink-200 bg-white px-6 py-3 text-sm font-bold text-ink-700 transition-colors hover:border-brand-300"
-              >
+              <Link href="/hsk" className="btn-secondary px-6 py-3">
                 Xem lộ trình HSK
               </Link>
             </div>
@@ -225,10 +219,7 @@ export default async function Home() {
             Từ vựng, ngữ pháp, bài đọc, truyện song ngữ, đề thi thử — trải dài khắp {sections.length} chuyên mục,
             cập nhật liên tục.
           </p>
-          <Link
-            href="/hsk"
-            className="mt-6 inline-flex items-center rounded-full bg-white px-6 py-3 text-sm font-bold text-ink-800 hover:bg-ink-100"
-          >
+          <Link href="/hsk" className="btn-secondary mt-6 border-transparent px-6 py-3">
             Khám phá lộ trình HSK
           </Link>
         </div>
@@ -241,10 +232,7 @@ export default async function Home() {
           <p className="mx-auto mt-2 max-w-md text-ink-600">
             Tạo tài khoản miễn phí, chọn cấp độ HSK phù hợp và học bài đầu tiên ngay hôm nay.
           </p>
-          <Link
-            href="/register"
-            className="mt-6 inline-flex items-center rounded-full bg-brand-500 px-8 py-3.5 text-sm font-bold text-white shadow-md hover:bg-brand-600"
-          >
+          <Link href="/register" className="btn-primary mt-6 px-8 py-3.5">
             Đăng ký miễn phí
           </Link>
         </div>

@@ -13,6 +13,12 @@ const TOOLS = [
     title: "Convert pinyin",
     desc: "Dán văn bản tiếng Trung → ra pinyin có dấu thanh, tô màu theo thanh điệu.",
   },
+  {
+    href: "/tools/writing",
+    icon: "写",
+    title: "Luyện viết chữ Hán",
+    desc: "Xem hoạt hình thứ tự nét hoặc tự vẽ để đố vui, cho bất kỳ chữ nào.",
+  },
 ];
 
 export default function ToolsHubPage() {

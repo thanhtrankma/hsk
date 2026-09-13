@@ -5,6 +5,36 @@ import HanziWriter from "hanzi-writer";
 
 type Mode = "demo" | "quiz";
 
+// "米字格" (rice-grid) guide lines used in Chinese writing workbooks — a
+// square border, a center cross, and two corner-to-corner diagonals — so
+// learners can judge where each stroke should sit relative to the middle
+// and edges of the character. Plain geometry, drawn as a CSS background so
+// it stays underneath whatever HanziWriter renders into the div.
+const GRID_SVG = `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect x="1" y="1" width="98" height="98" fill="none" stroke="#f2a6a6" stroke-width="2"/>
+  <line x1="0" y1="50" x2="100" y2="50" stroke="#f2a6a6" stroke-width="1"/>
+  <line x1="50" y1="0" x2="50" y2="100" stroke="#f2a6a6" stroke-width="1"/>
+  <line x1="2" y1="2" x2="98" y2="98" stroke="#f6c6c6" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="98" y1="2" x2="2" y2="98" stroke="#f6c6c6" stroke-width="1" stroke-dasharray="4 3"/>
+</svg>`.trim();
+
+const GRID_BACKGROUND = `url("data:image/svg+xml,${encodeURIComponent(GRID_SVG)}")`;
+
+// A small calligraphy-brush silhouette (handle + tapered tip) used as the
+// cursor while quizzing, instead of the default mouse-pointer arrow. The
+// hotspot (last two numbers in the `cursor` value) sits right at the tip so
+// the pointed end — not the visual center of the icon — is where drawing
+// actually registers.
+const BRUSH_CURSOR_SVG = `
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect x="13" y="2" width="6" height="13" rx="3" fill="#8b5e34"/>
+  <rect x="12" y="13" width="8" height="4" fill="#d4af37"/>
+  <path d="M11.5 17 C11.5 22, 14 27, 16 30 C18 27, 20.5 22, 20.5 17 Z" fill="#1f2937"/>
+</svg>`.trim();
+
+const BRUSH_CURSOR = `url("data:image/svg+xml,${encodeURIComponent(BRUSH_CURSOR_SVG)}") 16 30, crosshair`;
+
 export default function HanziWriterPractice({ initialChar = "你" }: { initialChar?: string }) {
   const targetRef = useRef<HTMLDivElement>(null);
   const writerRef = useRef<ReturnType<typeof HanziWriter.create> | null>(null);
@@ -30,6 +60,8 @@ export default function HanziWriterPractice({ initialChar = "你" }: { initialCh
       showOutline: true,
       strokeColor: "#c81e1e",
       radicalColor: "#059669",
+      drawingColor: "#c81e1e",
+      drawingWidth: 16,
       onLoadCharDataError: () => setLoadError(true),
     });
     writerRef.current = writer;
@@ -73,7 +105,13 @@ export default function HanziWriterPractice({ initialChar = "你" }: { initialCh
         <div
           ref={targetRef}
           className="han flex items-center justify-center rounded-xl border border-ink-100 bg-ink-50 text-4xl text-ink-300"
-          style={{ width: 240, height: 240 }}
+          style={{
+            width: 240,
+            height: 240,
+            backgroundImage: GRID_BACKGROUND,
+            backgroundSize: "100% 100%",
+            cursor: mode === "quiz" ? BRUSH_CURSOR : undefined,
+          }}
         />
       </div>
 

@@ -17,3 +17,5 @@ scraper/output/
 
 # OS / editor
 .DS_Store
+.vercel
+.env*

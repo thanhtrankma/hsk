@@ -6,8 +6,13 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  // Vercel's Neon-backed Postgres integration auto-sets both of these.
+  // DATABASE_URL is pooled (fine for the app's own queries at runtime);
+  // migrations need the direct connection, since pgbouncer-style poolers
+  // don't support the session features `prisma migrate` relies on.
+  directUrl = env("DATABASE_URL_UNPOOLED")
 }
 
 enum Membership {

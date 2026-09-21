@@ -35,12 +35,12 @@ const BRUSH_CURSOR_SVG = `
 
 const BRUSH_CURSOR = `url("data:image/svg+xml,${encodeURIComponent(BRUSH_CURSOR_SVG)}") 16 30, crosshair`;
 
-export default function HanziWriterPractice({ initialChar = "你" }: { initialChar?: string }) {
+const MAX_CHARS = 6;
+
+function CharCanvas({ char, mode, replayToken }: { char: string; mode: Mode; replayToken: number }) {
   const targetRef = useRef<HTMLDivElement>(null);
   const writerRef = useRef<ReturnType<typeof HanziWriter.create> | null>(null);
-  const [char, setChar] = useState(initialChar);
-  const [input, setInput] = useState(initialChar);
-  const [mode, setMode] = useState<Mode>("demo");
+  const lastReplayToken = useRef(replayToken);
   const [quizResult, setQuizResult] = useState<"correct" | "mistake" | null>(null);
   const [loadError, setLoadError] = useState(false);
 
@@ -80,10 +80,55 @@ export default function HanziWriterPractice({ initialChar = "你" }: { initialCh
     };
   }, [char, mode]);
 
+  useEffect(() => {
+    if (replayToken === lastReplayToken.current) return;
+    lastReplayToken.current = replayToken;
+    writerRef.current?.animateCharacter();
+  }, [replayToken]);
+
+  return (
+    <div className="flex flex-col items-center">
+      <div
+        ref={targetRef}
+        className="han flex items-center justify-center rounded-xl border border-ink-100 bg-ink-50 text-4xl text-ink-300"
+        style={{
+          width: 240,
+          height: 240,
+          backgroundImage: GRID_BACKGROUND,
+          backgroundSize: "100% 100%",
+          cursor: mode === "quiz" ? BRUSH_CURSOR : undefined,
+        }}
+      />
+      {loadError && (
+        <p className="mt-2 max-w-[240px] text-center text-xs text-gold-700">
+          Không tìm thấy dữ liệu nét viết cho &ldquo;{char}&rdquo; — thử một chữ khác.
+        </p>
+      )}
+      {mode === "quiz" && (
+        <p className="mt-2 text-center text-xs font-bold">
+          {quizResult === "correct" && <span className="text-jade-600">Chính xác! 🎉</span>}
+          {quizResult === "mistake" && <span className="text-gold-700">Sai nét rồi, thử lại nét đó xem.</span>}
+          {quizResult === null && <span className="text-ink-400">Vẽ từng nét theo đúng thứ tự.</span>}
+        </p>
+      )}
+    </div>
+  );
+}
+
+function toChars(text: string): string[] {
+  return [...text.replace(/\s+/g, "")].slice(0, MAX_CHARS);
+}
+
+export default function HanziWriterPractice({ initialChar = "你" }: { initialChar?: string }) {
+  const [chars, setChars] = useState(() => toChars(initialChar));
+  const [input, setInput] = useState(initialChar);
+  const [mode, setMode] = useState<Mode>("demo");
+  const [replayToken, setReplayToken] = useState(0);
+
   function handleSearch(e: FormEvent) {
     e.preventDefault();
-    const next = input.trim().charAt(0);
-    if (next) setChar(next);
+    const next = toChars(input);
+    if (next.length > 0) setChars(next);
   }
 
   return (
@@ -92,8 +137,8 @@ export default function HanziWriterPractice({ initialChar = "你" }: { initialCh
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          maxLength={4}
-          placeholder="Nhập một chữ Hán, ví dụ: 学"
+          maxLength={MAX_CHARS}
+          placeholder="Nhập một hoặc nhiều chữ Hán, ví dụ: 贵姓"
           className="han flex-1 rounded-xl border border-ink-200 px-3 py-2 text-lg focus:border-brand-300 focus:outline-none"
         />
         <button type="submit" className="btn-primary px-5">
@@ -101,25 +146,11 @@ export default function HanziWriterPractice({ initialChar = "你" }: { initialCh
         </button>
       </form>
 
-      <div className="mt-4 flex justify-center">
-        <div
-          ref={targetRef}
-          className="han flex items-center justify-center rounded-xl border border-ink-100 bg-ink-50 text-4xl text-ink-300"
-          style={{
-            width: 240,
-            height: 240,
-            backgroundImage: GRID_BACKGROUND,
-            backgroundSize: "100% 100%",
-            cursor: mode === "quiz" ? BRUSH_CURSOR : undefined,
-          }}
-        />
+      <div className="mt-4 flex flex-wrap justify-center gap-4">
+        {chars.map((c, i) => (
+          <CharCanvas key={`${i}-${c}`} char={c} mode={mode} replayToken={replayToken} />
+        ))}
       </div>
-
-      {loadError && (
-        <p className="mt-3 text-center text-xs text-gold-700">
-          Không tìm thấy dữ liệu nét viết cho &ldquo;{char}&rdquo; trong bộ dữ liệu mở — thử một chữ khác.
-        </p>
-      )}
 
       <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
         <button
@@ -139,7 +170,7 @@ export default function HanziWriterPractice({ initialChar = "你" }: { initialCh
         {mode === "demo" && (
           <button
             type="button"
-            onClick={() => writerRef.current?.animateCharacter()}
+            onClick={() => setReplayToken((t) => t + 1)}
             aria-label="Xem lại"
             className="rounded-full p-2 text-ink-500 hover:bg-ink-50"
           >
@@ -149,14 +180,6 @@ export default function HanziWriterPractice({ initialChar = "你" }: { initialCh
           </button>
         )}
       </div>
-
-      {mode === "quiz" && (
-        <p className="mt-3 text-center text-sm font-bold">
-          {quizResult === "correct" && <span className="text-jade-600">Chính xác! 🎉</span>}
-          {quizResult === "mistake" && <span className="text-gold-700">Sai nét rồi, thử lại nét đó xem.</span>}
-          {quizResult === null && <span className="text-ink-400">Vẽ từng nét theo đúng thứ tự vào ô trên.</span>}
-        </p>
-      )}
     </div>
   );
 }
